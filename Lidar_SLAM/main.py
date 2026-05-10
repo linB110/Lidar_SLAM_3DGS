@@ -171,14 +171,14 @@ for i, f in enumerate(files):
         pred_pose = prev_pose @ delta_T
    
     # 2. ICP refinement
-    T_correction, score = icp.align(pts, submap_pts, init_T=pred_pose)
+    T_correction, score, fitness, inlier_rmse = icp.align(pts, submap_pts, init_T=pred_pose)
    
     print(f"[Frame {i}] ICP score={score}, "
               f"translation={T_correction[:3,3].round(3)}, "
               f"det_R={np.linalg.det(T_correction[:3,:3]):.4f}")
 
     # 3. update pose
-    if score < 1000: # inliers < 1000 => fallback
+    if fitness < 0.5 or inlier_rmse > 1.0: # inliers < 1000 => fallback
         curr_pose = prev_pose.copy()
         print(f"[Frame {i}] ICP failed or low score ({score}) → using prev_pose as fallback.")
     else:
