@@ -1,6 +1,7 @@
 ## LiDAR SLAM 
 
 input : lidar scan pcd file
+
 output : lidar poses, camera poses, lidar map
 
 steps : 
@@ -18,7 +19,9 @@ steps :
 ## 3DGS
 
 input : RGB images, camera poses, lidar map, depth from depthAnythingV3
+
 output : rendered ply file and visualization of training process
+
 novel view sythesis : 
 
 1. modify dataset_reader.py for data Io and parameters
