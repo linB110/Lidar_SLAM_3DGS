@@ -6,7 +6,7 @@
 
 ## Demonstration
 
-[![Demo Video](./assets/demo_thumbnail.png)](./assets/SLAM_3DGS.mp4)
+[![Watch the demo](https://youtu.be/sWmocqajjeA)
 
 
 ---
@@ -26,6 +26,9 @@ steps :
 6. python3 color_mapping_norm.py to generate lidar map
 7. python3 filter_pcd.py to remove outlier of map points  (post-processing)
 
+![My image](./assets/Track1.png)
+
+![My image](./assets/Track2.png)
 
 ## Result visualization
 
