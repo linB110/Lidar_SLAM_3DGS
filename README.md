@@ -1,6 +1,12 @@
 ## Pipeline
 
-![My image](./asset/pipeline.png)
+![My image](./assets/pipeline.png)
+
+---
+
+## Demonstration
+
+<video src="./assets/SLAM_3DGS.mp4" controls width="600"></video>
 
 ---
 
