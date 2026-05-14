@@ -6,7 +6,7 @@
 
 ## Demonstration
 
-[![Watch the demo](https://youtu.be/sWmocqajjeA)
+[Watch the demo](https://youtu.be/sWmocqajjeA)
 
 
 ---
