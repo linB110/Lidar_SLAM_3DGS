@@ -1,3 +1,9 @@
+## Pipeline
+
+![My image](./asset/pipeline.png)
+
+---
+
 ## LiDAR SLAM 
 
 input : lidar scan pcd file
@@ -12,6 +18,7 @@ steps :
 5. python3 camera_pose.py to generate camera pose from lidar pose using SLERP
 6. python3 color_mapping_norm.py to generate lidar map
 7. python3 filter_pcd.py to remove outlier of map points  (post-processing)
+
 
 ## Result visualization
 
