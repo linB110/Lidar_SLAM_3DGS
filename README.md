@@ -6,7 +6,8 @@
 
 ## Demonstration
 
-<video src="./assets/SLAM_3DGS.mp4" controls width="600"></video>
+[![Demo Video](./assets/demo_thumbnail.png)](./assets/SLAM_3DGS.mp4)
+
 
 ---
 
